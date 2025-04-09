@@ -122,8 +122,8 @@
   </div>
   <div v-else>
     <input v-model="editedReference" class="edit-input"/>
-    <button @click="updateReference" class="update-btn">Update</button>
-    <button @click="cancelEdit" class="cancel-btn">Cancel</button>
+    <button @click="updateReference" class="update-btn"><span>Update</span></button>  // span addition
+    <button @click="cancelEdit" class="cancel-btn"><span>Cancel</span></button>       // span addition
   </div>
 </div>
 
